@@ -311,7 +311,7 @@ img {
 .about__information-data {
     display: flex;
     align-items: center;
-    padding-left: 1.5rem;
+    padding-left: 3rem;
     margin-bottom: var(--mb-3);
 }
 
@@ -498,7 +498,7 @@ img {
 
 .project {
     background-color: var(--first-color);
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
 }
 
 .project__container {
