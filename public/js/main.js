@@ -1,7 +1,20 @@
 const navMenu = document.getElementById('nav-menu'),
     toggleMenu = document.getElementById('nav-toggle'),
-    closeMenu = document.getElementById('nav-close')
+    closeMenu = document.getElementById('nav-close');
 
+
+let form = document.getElementById('formulario');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        console.log('Submitido');
+    })
+
+
+function submitir () {
+    e.preventDefault();
+    console.log('Formulario submitido');
+}
 //Mostrar
 toggleMenu.addEventListener('click', () => {
     navMenu.classList.toggle('show')
