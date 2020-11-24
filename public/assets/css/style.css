@@ -85,6 +85,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 50%;
 }
 
 .section {
@@ -202,8 +203,8 @@ img {
 }
 
 .home__img {
-    padding-top: 1.3rem;
-    padding-left: .8rem;
+    /* padding-top: 1.3rem;
+    padding-left: .8rem; */
     width: 160px;
     height: 160px;
     background-color: var(--first-color);
